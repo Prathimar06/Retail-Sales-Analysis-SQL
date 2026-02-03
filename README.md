@@ -79,37 +79,42 @@ SELECT product_category, SUM(total_sales) AS revenue
 FROM retail_sales
 GROUP BY product_category
 ORDER BY revenue DESC;
+```
 
+🚀 How to Run the Project
 
-## 🚀 How to Run the Project
+Create a database in your preferred SQL environment (MySQL / PostgreSQL / SQLite).
 
-1. Create a database in your preferred SQL environment (MySQL / PostgreSQL / SQLite).
-2. Import the provided CSV dataset into a database table.
-3. Execute the SQL queries available in the `Retail_Sales.sql` file.
-4. Review the query outputs to analyze sales performance and trends.
+Import the provided CSV dataset into a database table.
 
----
+Execute the SQL queries available in the Retail_Sales.sql file.
 
-## 📈 Key Insights Generated
+Review the query outputs to analyze sales performance and trends.
 
-- Identification of high-revenue product categories.
-- Analysis of top-selling products based on sales volume and revenue.
-- Understanding overall sales distribution across categories.
-- Insights into sales trends across different time periods.
+📈 Key Insights Generated
 
----
+Identification of high-revenue product categories.
 
-## 🎯 Key Learnings
+Analysis of top-selling products based on sales volume and revenue.
 
-- Gained practical experience in SQL-based data cleaning and validation.
-- Wrote analytical SQL queries using `GROUP BY`, aggregations, and filters.
-- Transformed raw transactional data into meaningful business insights.
-- Applied SQL techniques commonly used in Business Intelligence use cases.
+Understanding overall sales distribution across categories.
 
----
+Insights into sales trends across different time periods.
 
-## 🔮 Future Enhancements
+🎯 Key Learnings
 
-- Integrate data visualization using Power BI or Tableau.
-- Automate data ingestion and refresh processes.
-- Extend the analysis by adding additional KPIs and metrics.
+Practical experience in SQL-based data cleaning and validation.
+
+Writing analytical SQL queries using GROUP BY, aggregations, and filters.
+
+Converting raw transactional data into meaningful business insights.
+
+Applying SQL techniques commonly used in Business Intelligence use cases.
+
+🔮 Future Enhancements
+
+Integrate data visualization using Power BI or Tableau.
+
+Automate data ingestion and refresh processes.
+
+Extend the analysis by adding additional KPIs and metrics
