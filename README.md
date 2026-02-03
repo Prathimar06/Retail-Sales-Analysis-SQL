@@ -1,4 +1,4 @@
-# Retail-Sales-Analysis-SQL
+
 # Retail Sales Data Analysis Using SQL
 
 ## 📖 Project Summary
@@ -79,3 +79,37 @@ SELECT product_category, SUM(total_sales) AS revenue
 FROM retail_sales
 GROUP BY product_category
 ORDER BY revenue DESC;
+
+
+## 🚀 How to Run the Project
+
+1. Create a database in your preferred SQL environment (MySQL / PostgreSQL / SQLite).
+2. Import the provided CSV dataset into a database table.
+3. Execute the SQL queries available in the `Retail_Sales.sql` file.
+4. Review the query outputs to analyze sales performance and trends.
+
+---
+
+## 📈 Key Insights Generated
+
+- Identification of high-revenue product categories.
+- Analysis of top-selling products based on sales volume and revenue.
+- Understanding overall sales distribution across categories.
+- Insights into sales trends across different time periods.
+
+---
+
+## 🎯 Key Learnings
+
+- Gained practical experience in SQL-based data cleaning and validation.
+- Wrote analytical SQL queries using `GROUP BY`, aggregations, and filters.
+- Transformed raw transactional data into meaningful business insights.
+- Applied SQL techniques commonly used in Business Intelligence use cases.
+
+---
+
+## 🔮 Future Enhancements
+
+- Integrate data visualization using Power BI or Tableau.
+- Automate data ingestion and refresh processes.
+- Extend the analysis by adding additional KPIs and metrics.
